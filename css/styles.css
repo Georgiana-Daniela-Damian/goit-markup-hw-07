@@ -90,6 +90,7 @@ ul {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-direction: column;
 }
 
 .link {
@@ -262,7 +263,7 @@ ul {
 }
 
 .icons-container-top {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -278,6 +279,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display: flex;
+  justify-content: center;
 }
 
 .subtitle-style {
@@ -986,4 +989,59 @@ input:checked + .modal-label-checkbox span:first-child {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+@media screen and (width > 768px) {
+  .list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .icons-container-top {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .subtitle-list {
+    color: var(--navy-blue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    justify-content: left;
+  }
+}
+
+@media screen and (width > 1158px) {
+  .list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .icons-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .subtitle-list {
+    color: var(--navy-blue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
 }
