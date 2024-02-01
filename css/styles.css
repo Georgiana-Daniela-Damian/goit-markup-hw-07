@@ -1021,6 +1021,12 @@ input:checked + .modal-label-checkbox span:first-child {
     text-transform: capitalize;
     justify-content: left;
   }
+
+  /* section three */
+
+  .section-three-style {
+    display: none;
+  }
 }
 
 /* MOBILE */
