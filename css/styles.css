@@ -437,7 +437,7 @@ ul {
   display: flex;
   gap: 24px;
   list-style-type: none;
-  height: 88px;
+  /* height: 88px; */
   padding: 0%;
 }
 
@@ -483,6 +483,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  gap: 24px;
 }
 
 .button-p {
@@ -603,7 +604,7 @@ ul {
 
 .fundal-footer {
   padding: 100px 0;
-  height: 312px;
+  /* heiring: 312px */
   background-color: #2e2f42;
 }
 
@@ -1098,12 +1099,20 @@ input:checked + .modal-label-checkbox span:first-child {
   /* section five */
 
   .section-custom {
-    padding: 96px 0px;
+    /* padding: 120px 0 10px; */
   }
 
   .list-custom {
-    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    display: flex;
+    row-gap: 70px;
+  }
+
+  .li-custom {
+    width: 150px;
+    height: 88px;
+    flex-shrink: 0;
   }
 
   /* footer */
@@ -1162,5 +1171,24 @@ input:checked + .modal-label-checkbox span:first-child {
 
   .footer-form-input {
     max-width: 100%;
+  }
+
+  /* portofolio button */
+
+  .button-margin-style {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .buttons-style {
+    padding-top: 96px;
+    padding-bottom: 40px;
+  }
+
+  .list--btn-portof {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    list-style: none;
   }
 }
