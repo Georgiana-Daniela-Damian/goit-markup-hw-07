@@ -339,7 +339,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-color);
-  margin-left: 500px;
+  justify-content: center;
 }
 
 .our-team-style {
@@ -998,28 +998,44 @@ input:checked + .modal-label-checkbox span:first-child {
 
   /* section two */
 
-  .section-two-style {
-    display: flex;
-    padding: 96px 0px;
-  }
-
-  .list {
-    display: flex;
-    gap: 24px;
-  }
-
   .icons-container-top {
     display: none;
   }
 
+  .list {
+    columns: 2;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .li-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
   .subtitle-list {
-    color: var(--navy-blue-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
     text-transform: capitalize;
-    justify-content: left;
+  }
+
+  .paragraf-tow {
+    max-width: 100%;
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
   }
 
   /* section three */
@@ -1027,6 +1043,85 @@ input:checked + .modal-label-checkbox span:first-child {
   .section-three-style {
     display: none;
   }
+
+  /* section four */
+
+  .section-four-style {
+    display: flex;
+    padding: 96px 0;
+  }
+
+  .title-our-team {
+    display: flex;
+    justify-content: center;
+  }
+
+  .technologie-four {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-name-style {
+    width: 264px;
+    align-items: center;
+  }
+
+  /* section five */
+
+  .section-custom {
+    padding-top: 100px;
+  }
+
+  .list-custom {
+    display: flex;
+    /* width: 768px; */
+
+    align-items: center;
+    /* /* gap: 96px; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .li-custom {
+    width: 168px;
+    height: 88px;
+  }
+
+  /* footer */
+
+  .fundal-footer {
+    display: flex;
+    padding: 96px 0;
+    margin: 0;
+  }
+
+  .container-footer {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .div-footer-child {
+    margin: 0;
+    /* margin-left: 108px; */
+    /* margin-right: 24px;
+    margin-bottom: 72px; */
+  }
+
+  .footer-subscribe {
+    margin: 72px 0px 0px 0px;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* portofolio */
 }
 
 /* MOBILE */
