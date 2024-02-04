@@ -1132,6 +1132,46 @@ input:checked + .modal-label-checkbox span:first-child {
     width: auto;
   }
 
+  /* header */
+
+  .header-container {
+    max-width: 428px;
+    justify-content: space-between;
+  }
+
+  .logo-link {
+    margin: 0;
+  }
+
+  .nav-style {
+    display: none;
+  }
+
+  .address {
+    display: none;
+  }
+
+  /* section one */
+
+  .section-one-style {
+    display: flex;
+    padding: 112px 0px 112px 0px;
+  }
+
+  .title {
+    padding-bottom: 72px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin: 0;
+  }
+
   /* section two */
   .section-two-style {
     display: flex;
@@ -1140,7 +1180,7 @@ input:checked + .modal-label-checkbox span:first-child {
 
   .list {
     display: flex;
-    gap: 24px;
+    gap: 72px;
     justify-content: center;
     flex-direction: column;
   }
