@@ -21,19 +21,30 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
-
-    <link rel="stylesheet" href="[path/to/css/feathericon.min.css" />
   </head>
+
   <body class="body">
     <header class="all-container">
       <div class="header-container container">
         <!-- Logo -->
-
         <nav class="logo-style">
           <a class="logo-link link" href="./index.html"
             >Web<span class="logo-link-second">Studio</span></a
           >
 
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="40" height="50" class="menu-icon">
+              <use
+                href="./images/icons.svg#icon-menu"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              ></use>
+            </svg>
+          </button>
           <!-- Navigation -->
           <ul class="nav-style">
             <li>
@@ -575,7 +586,87 @@
         </form>
       </div>
     </div>
+    <!-- modal hidden navigation header -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <nav class="list nav-list-menu">
+        <button class="menu-toggle js-close-menu modal-close" type="button">
+          <svg width="24" height="24" class="close-svg-menu">
+            <use
+              href="./images/icons.svg#close"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            ></use>
+          </svg>
+        </button>
+        <ul class="list topline-link-menu">
+          <li>
+            <a class="topline-section-menu link" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="topline-section-menu link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="topline-section-menu link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="list topline-address-menu">
+          <li>
+            <a class="address-menu-phone link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="address-menu-email link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <div class="footer-social-side-menu">
+        <ul class="footer-social-bar-menu">
+          <li class="list">
+            <a class="link footer-icon-space" href="">
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-instagram-footersvg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a class="link footer-icon-space" href="">
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-twitter-footersvg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a class="link footer-icon-space" href="">
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icons-facebook-footersvg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a class="link footer-icon-space" href="">
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-linkedin-footersvg"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
