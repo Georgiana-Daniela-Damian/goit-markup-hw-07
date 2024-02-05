@@ -1224,7 +1224,6 @@ input:checked + .modal-label-checkbox span:first-child {
   .topline-link-menu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
     gap: 40px;
     margin-top: 80px;
@@ -1294,6 +1293,16 @@ input:checked + .modal-label-checkbox span:first-child {
   .close-svg-meniu:hover,
   .close-svg-meniu:focus {
     fill: #ffffff;
+  }
+
+  .svg {
+  }
+
+  .list-modal {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
   }
 
   /* header */
