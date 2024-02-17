@@ -32,25 +32,33 @@
             >Web<span class="logo-link-second">Studio</span></a
           >
 
-          <button
-            id="js-menu-open"
-            class="js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
+          <button id="openBtn" class="js-open-menu" type="button"></button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="22"
+            viewBox="0 0 32 22"
+            fill="none"
           >
-            <svg width="40" height="50" class="menu-icon">
-              <use
-                href="./images/icons.svg#icon-menu"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-              ></use>
-            </svg>
-          </button>
-
-          <div id="js-menu-container" class="js-menu-container">
+            <g clip-path="url(#clip0_297053_2156)">
+              <path
+                d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861"
+                stroke="#2E2F42"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_297053_2156">
+                <rect width="32" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <div id="modal" click class="js-menu-container">
             <div class="nav-list-menu">
               <nav>
-                <button id="js-close-menu" class="js-close-menu" type="button">
+                <button id="closeBtn" class="js-close-menu" type="button">
                   &times;
                 </button>
                 <ul class="js-nav">
@@ -68,61 +76,61 @@
                 </ul>
               </nav>
               <address>
-                <ul class="list-modal topline-address-menu">
+                <ul class="js-address">
                   <li>
-                    <a class="address-menu-phone link" href="tel:+110001111111"
+                    <a class="js-address-phone" href="tel:+110001111111"
                       >+11 (000) 111-11-11</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="address-menu-email link"
-                      href="mailto:info@devstudio.com"
+                    <a class="js-address-email" href="mailto:info@devstudio.com"
                       >info@devstudio.com</a
                     >
                   </li>
                 </ul>
               </address>
-              <div class="footer-social-side-menu">
-                <ul class="footer-social-bar-menu">
-                  <li class="list">
-                    <a class="link footer-icon-space" href="">
-                      <svg width="24" height="24" class="svg">
-                        <use
-                          href="./images/icons.svg#icon-instagram-footersvg"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="list">
-                    <a class="link footer-icon-space" href="">
-                      <svg width="24" height="24" class="svg">
-                        <use
-                          href="./images/icons.svg#icon-twitter-footersvg"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="list">
-                    <a class="link footer-icon-space" href="">
-                      <svg width="24" height="24" class="svg">
-                        <use
-                          href="./images/icons.svg#icons-facebook-footersvg"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="list">
-                    <a class="link footer-icon-space" href="">
-                      <svg width="24" height="24" class="svg">
-                        <use
-                          href="./images/icons.svg#icon-linkedin-footersvg"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
+              <ul class="footer-social-bar-menu">
+                <li class="li-footer">
+                  <a href="" class="last-link-footer">
+                    <svg width="24" height="24" class="svg-footer">
+                      <use
+                        href="./images/icons.svg#icon-instagram-footersvg"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="li-footer">
+                  <a href="" class="last-link-footer">
+                    <svg width="24" height="24" class="svg-footer">
+                      <use
+                        href="./images/icons.svg#icon-twitter-footersvg"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="li-footer">
+                  <a href="" class="last-link-footer">
+                    <svg width="24" height="24" class="svg-footer">
+                      <use
+                        href="./images/icons.svg#icon-facebook-footersvg"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="li-footer">
+                  <a href="" class="last-link-footer">
+                    <svg width="24" height="24" class="svg-footer">
+                      <use
+                        href="./images/icons.svg#icon-linkedin-footersvg"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
 

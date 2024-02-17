@@ -166,10 +166,6 @@
 <symbol id="icon-checkmark" viewBox="0 0 32 32">
 <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
 </symbol>
-<symbol id="icon-menu" viewBox="0 0 32 32">
-<path d="M4 16h24"></path>
-<path d="M4 8h24"></path>
-<path d="M4 24h24"></path>
-</symbol>
+
 </dfs>
 </svg>
