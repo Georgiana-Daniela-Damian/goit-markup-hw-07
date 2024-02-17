@@ -33,7 +33,7 @@
           >
 
           <button
-            class="menu-toggle js-open-menu"
+            class="js-open-menu"
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
@@ -45,6 +45,89 @@
               ></use>
             </svg>
           </button>
+
+          <div class="js-menu-container" id="mobile-menu">
+            <div class="nav-list-menu">
+              <nav>
+                <button
+                  class="menu-toggle js-close-menu modal-close"
+                  type="button"
+                >
+                  &times;
+                </button>
+                <ul class="js-nav">
+                  <li>
+                    <a class="js-nav-studio-blue" href="./index.html">Studio</a>
+                  </li>
+                  <li>
+                    <a class="js-nav-black" href="./portfolio.html"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a class="js-nav-black" href="">Contacts</a>
+                  </li>
+                </ul>
+              </nav>
+              <address>
+                <ul class="list-modal topline-address-menu">
+                  <li>
+                    <a class="address-menu-phone link" href="tel:+110001111111"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="address-menu-email link"
+                      href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <div class="footer-social-side-menu">
+                <ul class="footer-social-bar-menu">
+                  <li class="list">
+                    <a class="link footer-icon-space" href="">
+                      <svg width="24" height="24" class="svg">
+                        <use
+                          href="./images/icons.svg#icon-instagram-footersvg"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list">
+                    <a class="link footer-icon-space" href="">
+                      <svg width="24" height="24" class="svg">
+                        <use
+                          href="./images/icons.svg#icon-twitter-footersvg"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list">
+                    <a class="link footer-icon-space" href="">
+                      <svg width="24" height="24" class="svg">
+                        <use
+                          href="./images/icons.svg#icons-facebook-footersvg"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list">
+                    <a class="link footer-icon-space" href="">
+                      <svg width="24" height="24" class="svg">
+                        <use
+                          href="./images/icons.svg#icon-linkedin-footersvg"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <!-- Navigation -->
           <ul class="nav-style">
             <li>
@@ -587,78 +670,6 @@
       </div>
     </div>
     <!-- modal hidden navigation header -->
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <nav class="list nav-list-menu">
-        <button class="menu-toggle js-close-menu modal-close" type="button">
-          <svg width="24" height="24" class="close-svg-menu">
-            <use
-              href="./images/icons.svg#icon-close-black-18dp-2-1"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-            ></use>
-          </svg>
-        </button>
-        <ul class="list-modal topline-link-menu">
-          <li>
-            <a class="topline-section-menu link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="topline-section-menu link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="topline-section-menu link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="list-modal topline-address-menu">
-          <li>
-            <a class="address-menu-phone link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li>
-            <a class="address-menu-email link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-      </address>
-      <div class="footer-social-side-menu">
-        <ul class="footer-social-bar-menu">
-          <li class="list">
-            <a class="link footer-icon-space" href="">
-              <svg width="24" height="24" class="svg">
-                <use href="./images/icons.svg#icon-instagram-footersvg"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="list">
-            <a class="link footer-icon-space" href="">
-              <svg width="24" height="24" class="svg">
-                <use href="./images/icons.svg#icon-twitter-footersvg"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="list">
-            <a class="link footer-icon-space" href="">
-              <svg width="24" height="24" class="svg">
-                <use href="./images/icons.svg#icons-facebook-footersvg"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="list">
-            <a class="link footer-icon-space" href="">
-              <svg width="24" height="24" class="svg">
-                <use href="./images/icons.svg#icon-linkedin-footersvg"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
 
     <script src="./js/modal.js"></script>
     <script
