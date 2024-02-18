@@ -988,6 +988,16 @@ input:checked + .modal-label-checkbox span:first-child {
   fill: #f4f4fd;
 }
 
+/* Hamburgher-menu-js */
+
+.js-open-menu {
+  visibility: hidden;
+}
+
+.js-menu-container {
+  display: none;
+}
+
 /* TABLETA */
 
 @media screen and (429px <= width <= 768px) {
@@ -1121,6 +1131,20 @@ input:checked + .modal-label-checkbox span:first-child {
     align-items: center;
   }
 
+  /* Hamburgher-menu-js */
+
+  .js-open-menu-svg {
+    display: none;
+  }
+
+  .js-open-menu {
+    visibility: hidden;
+  }
+
+  .js-menu-container {
+    display: none;
+  }
+
   /* portofolio */
 }
 
@@ -1150,7 +1174,7 @@ input:checked + .modal-label-checkbox span:first-child {
   /* Harmburgher menu */
 
   .js-open-menu {
-    min-width: 40px;
+    min-width: 130px;
 
     align-items: center;
     justify-content: center;
@@ -1173,9 +1197,6 @@ input:checked + .modal-label-checkbox span:first-child {
   }
 
   .js-menu-container {
-    width: 100%;
-    height: 100%;
-
     position: fixed;
     top: 0;
     margin-left: 0;
