@@ -990,17 +990,9 @@ input:checked + .modal-label-checkbox span:first-child {
 
 /* Hamburgher-menu-js */
 
-.js-open-menu {
-  visibility: hidden;
-}
-
-.js-menu-container {
-  display: none;
-}
-
 /* TABLETA */
 
-@media screen and (429px <= width <= 768px) {
+@media screen and (428px <= width <= 768px) {
   /* all */
   .container {
     width: auto;
@@ -1150,7 +1142,7 @@ input:checked + .modal-label-checkbox span:first-child {
 
 /* MOBILE */
 
-@media screen and (max-width: 428px) {
+@media screen and (200px <= width <= 428px) {
   /* all-first page */
   .container {
     margin: 0 auto;
@@ -1342,6 +1334,7 @@ input:checked + .modal-label-checkbox span:first-child {
     gap: 72px;
     justify-content: center;
     flex-direction: column;
+    padding: 0;
   }
 
   .icons-container-top {
@@ -1356,7 +1349,7 @@ input:checked + .modal-label-checkbox span:first-child {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
-    margin: 0;
+    margin-bottom: 8px;
   }
 
   .paragraf-tow {
