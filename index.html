@@ -32,7 +32,7 @@
             >Web<span class="logo-link-second">Studio</span></a
           >
 
-          <button id="openBtn" class="js-open-menu" type="button"></button>
+          <button js-open-menu class="js-open-menu" type="button"></button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -55,10 +55,10 @@
               </clipPath>
             </defs>
           </svg>
-          <div id="modal" click class="js-menu-container">
+          <div js-container-menu class="js-menu-container" is-hidden>
             <div class="nav-list-menu">
               <nav>
-                <button id="closeBtn" class="js-close-menu" type="button">
+                <button js-close-menu class="js-close-menu" type="button">
                   &times;
                 </button>
                 <ul class="js-nav">
@@ -684,6 +684,6 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>

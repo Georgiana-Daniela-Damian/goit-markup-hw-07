@@ -1,18 +1,14 @@
-const openBtn = document.querySelector("#openBtn");
-const closeBtn = document.querySelector("#closeBtn");
-const modal = document.querySelector("#modal");
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[js-open-menu]"),
+    closeModalBtn: document.querySelector("[js-close-menu]"),
+    modal: document.querySelector("[js-container-menu]")
+  };
 
-openBtn.addEventListener("click", () => {
-  modal.style.display = "none";
-});
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
 
-closeBtn.addEventsListener("click", () => {
-  modal.style.displey = "none";
-});
-
-modal.addEventListener("click", (e) => {
-  console.log(e.target);
-  if (e.target == modal) {
-    modal.style.display = "none";
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
   }
-});
+})();
