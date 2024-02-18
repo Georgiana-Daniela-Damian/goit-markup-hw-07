@@ -1011,11 +1011,15 @@ input:checked + .modal-label-checkbox span:first-child {
     padding: 0;
   }
 
+  .paragraf-ul {
+  }
+
   .li-style {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    width: 356px;
   }
 
   .subtitle-list {
@@ -1148,6 +1152,7 @@ input:checked + .modal-label-checkbox span:first-child {
   .container {
     margin: 0 auto;
     padding: 0 16px;
+    max-width: 428px;
   }
 
   .logo-style {
