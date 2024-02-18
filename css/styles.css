@@ -992,7 +992,7 @@ input:checked + .modal-label-checkbox span:first-child {
 
 /* TABLETA */
 
-@media screen and (428px <= width <= 768px) {
+@media screen and (width > 768px) {
   /* all */
   .container {
     width: auto;
@@ -1147,7 +1147,7 @@ input:checked + .modal-label-checkbox span:first-child {
 
 /* MOBILE */
 
-@media screen and (200px <= width <= 428px) {
+@media screen and (300px < width < 768px) {
   /* all-first page */
   .container {
     margin: 0 auto;
@@ -1417,7 +1417,6 @@ input:checked + .modal-label-checkbox span:first-child {
   /* footer */
 
   .fundal-footer {
-    max-width: 428px;
     display: flex;
     padding: 96px 0px;
   }
